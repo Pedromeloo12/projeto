@@ -29,6 +29,7 @@ body{
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    height: 100vh;
 }
 
 body * {
@@ -169,4 +170,16 @@ footer{
     font-size: 14px;
     text-align: center;
     padding: 12px 0;
+}
+
+/* MIDIA QUIRIES */
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./src/bg-desktop.jpg)
+    }
+
+    .ligth {
+        --bg-url: url(./src/bg-desktop-light.jpg)
+    }
 }
