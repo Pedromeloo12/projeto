@@ -121,7 +121,7 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: column; /* Serve para alinhar os itens em colunas e para aplicar o gap*/
-    gap: 40px; /* Serve para aplicar um espaço entre as colunas*/
+    gap: 20px; /* Serve para aplicar um espaço entre as colunas*/
     padding: 24px 0;
 }
 
@@ -149,7 +149,7 @@ ul li a:hover {
     display: flex;
     justify-content: center;
     gap: 16px;
-    padding: 24px 0;
+    padding: 12px 0;
     font-size: 25px;
 }
 
